@@ -1,0 +1,309 @@
+/* --------------------------------------------------------------
+
+   reset.css
+   * Resets default browser CSS.
+
+-------------------------------------------------------------- */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+
+
+/* Tables still need 'cellspacing="0"' in the markup. */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+table, td, th { vertical-align: middle; }
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* Remove annoying border on linked images. */
+a img { border: none; }
+
+/* Actual CSS */
+body{
+    background-color:#fff;font-family:trebuchet MS;line-height: 2;
+}
+
+.captchaimg{
+    border:1px solid black;width:210px; float:left;
+    cursor: pointer;
+}
+.refreshimg{
+    border:1px solid black;   cursor: hand;
+    cursor: pointer; float:left;
+}
+.refreshimg:hover
+{
+    cursor: hand;
+    cursor: pointer;
+}
+
+.refreshimg:hover
+{
+    cursor: hand\9;
+    cursor: pointer\9;
+}
+
+.catch_sub:hover
+{
+    cursor: hand\9;
+    cursor: pointer\9;
+}
+.dateval{clear:both;margin-left:180px;color: #B62427;font-size:11px;font-style:italic;}
+.signup_container{
+    border:1px solid #0088CC;
+    clear:both;
+    height:880px;
+    margin:10px auto;
+    width:900px;
+    -moz-border-radius:10px;
+}
+
+input, textarea, select {
+border:1px solid #E5E5E5;
+color:#222;
+font-size:12px;
+font-weight:bold;
+padding:4px;
+ -moz-border-radius:4px;
+}
+.signup_right{
+    height:100%;
+    margin:20px auto;
+}
+.signlefttop1{float:left;width:100%;height:50px;}
+.signlefttop2{float:left;width:100%;height:50px;}
+.memb_log{font-size:17px;text-align:center;padding-top:15px;font-weight:bold;}
+.log_ac{float:left;color:#B5B5B5;font-size:11.5px;padding-top:15px;font-weight:bold;padding-left:48px;}
+.signleft_log{float:left;width:100%;height:140px;padding-top:10px;}
+.signleft_log{float:left;width:100%;height:140px;padding-top:10px;margin-top:-20px;}
+.signleft_font{font-size:12px;font-weight:bold;}
+.remem_fon{float:left;padding-left:2px;padding-top:7px;font-size:13px;color:#B5B5B5;}
+.but_log{float:left;width:100%;padding-top:15px;}
+
+.but_sub{padding-left:290px;}
+.forget_row{float:left;width:100%;height:25px;}
+.forg1{float:left;width:53%;height:100%;}
+.forg_m{float:left;width:2%;height:100%;}
+.forg_m_img{padding:2px 0px 0px 3px;}
+.forg2{float:left;width:40%;height:100%;}
+.forg_us{float:right;padding:3px 7px 0px 0px;}
+.forg_us2{float:left;padding:3px 0px 0px 8px;}
+.forg_us a{text-decoration:none;font-size:11px;font-weight:bold;color:#000;}
+.forg_us a:hover{text-decoration:underline;}
+.forg_us2 a{text-decoration:none;font-size:11px;font-weight:bold;color:#000;}
+
+.forg_us2 a:hover{text-decoration:underline;}
+.leftpara_mid{float:left;width:100%;height:200px;}
+
+
+
+.right_toppart{float:left;width:100%;height:660px;}
+.bg_shade{float:left;width:100%;height:24px;}
+.bg_ins{background-image:url(../../images/bgshade.jpg);background-repeat: repeat-x;width:620px;height:23px;}
+.right_botpart{float:left;width:100%;}
+.rtbot_1{float:left;padding-top:10px;width:100%;height:25px;}
+.rtbot1txt{font-size:11px;font-weight:bold;padding:10px 0px 0px 40px;}
+
+
+.rtbotlis ul { list-style:none;
+}
+.rtbotlis_sub{
+    list-style:none;margin-left:35px;
+}
+.rtbotlis li {
+    color:#000000;
+    font-size:11px;
+    font-weight:normal;
+    line-height:20px;
+}
+.rtbotagr{float:left;width:100%;height:25px;}
+.rtagr_txt{
+    font-size:11px;
+    font-weight:bold;
+    margin-left:20px;
+    padding-left:16px;
+}
+.rtagr_txt a{color:#000000;}
+*html .rtagr_txt a{color:#000000;}
+
+.rt_bt_top1{float:left;width:100%;height:80px;}
+.rt_tophead{font-size:22px;text-align:center;padding-top:15px;font-weight:bold;color:#0088CC;}
+.rt_please{font-weight:bold;}
+.rt_field{font-size:11.5px;}
+.rt_topmark{color:#FF0000;font-size:11px;padding-top:28px;padding-left:43px;}
+.form_cont{
+           margin:0 auto;
+           padding-top:12px;}
+
+.rowContainer {
+    height:46px;
+    margin-top:2px;
+    overflow:hidden;
+    padding-bottom:5px;
+    width:100%;
+    font-size:14px;
+}
+.rowContainer_date{
+    height:40px;
+    margin-top:0px;
+    overflow:hidden;
+    padding-bottom:5px;
+    width:100%;
+    font-size:14px;font-weight:normal;
+}
+.row_input{margin-top:5px;}
+input[type="text"]:focus,input[type="password"]:focus{border:1px solid #0088CC;}
+.txt_select{width:50px;height:24px;}
+.rowContainer2 {
+    height:36px;
+    margin-top:0px;
+    overflow:hidden;
+    padding-bottom:5px;
+    width:100%;
+}
+
+.rowContainer label {
+    color:#000000;
+    float:left;
+    font-size:11px;
+    font-weight:bold;
+    line-height:18px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:right;
+    width:240px;
+}
+.rowContainer_date label {
+    color:#000000;
+    float:left;
+
+    font-size:11px;
+    font-weight:bold;
+    line-height:18px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align:right;
+    width:240px;
+}
+
+
+.txt_rtbox{float:left;width:400px;height:16px;border:1px solid #E5E5E5;}
+.txt_rtbox2{float:left;width:210px;height:16px;border:1px solid #E5E5E5;}
+
+.spanclass {
+    color:#B5B5B5;
+    font-size:11px;
+    font-style:italic;
+    font-weight:normal;
+    margin-left:280px;
+    float:left;clear:both;
+}
+
+
+.spanclass2 {
+    font-weight:normal;
+    color:#B5B5B5;
+    font-size:11px;
+    font-style:italic;
+    margin-left:282px;
+}
+
+
+#datetipContainer
+{
+    clear:both;margin-top:0px;
+    margin-left:182px;color: #B62427;font-size:11px;  font-style:italic;
+}
+
+
+#tooltipContainer{margin-left:282px;color: #990000;font-size:11px; }
+.rowContainer input.error{
+    background: #f8dbdb;
+    border-color: #e77776;
+}
+.rowContainer_date input.error{
+    background: #f8dbdb;
+    border-color: #e77776;
+}
+.rowContainer span .error{
+    color: #e46c6e;
+}
+.rowContainer_date span .error{
+    color: #e46c6e;
+}
+*html .rowContainer_date span .error{
+    color: #e46c6e;
+}
+
+*html .rowContainer span .error{
+    color: #e46c6e;
+    margin-top:-3px;
+}
+.rowcontainer_sub{padding-left:195px;padding-top:0px;margin-left:-15px;}
+*html .rowcontainer_sub{padding-left:195px;padding-top:0px;margin-left:-15px;}
+.catchahelp
+{
+   margin-top: 30px;
+}
+
+.catch_sub{color:#5c5c5c;text-decoration:none;border:0px;}
+
+.signleft_sub{
+    float:left;padding-left:30px;padding-top:4px;width:70px;
+}
+
+.signleftsub_sub{
+    float:left;
+}
+
+.usernameLogin_sub{
+    float:left;padding-left:30px;padding-top:14px;width:70px;
+}
+
+.usernameLoginsub_sub{
+    float:left;padding-top:10px;
+}
+
+
+.txt_rightcls{width:410px;height:24px;}
+.txt_month{border:1px solid #E5E5E5;width:60px;height:24px;}
+.txt_date{border:1px solid #E5E5E5;width:70px;height:24px;}
+.txt_year{width:65px;height:24px;}
+
+
+.date_format{
+    padding-left:20px;
+    color:#B5B5B5;
+    font-size:11px;
+    line-height:18px;
+    text-align:right;
+    width:100px;
+    margin-top:2px;
+}
+
+
+.terms{color:#0088CC;font-family:Georgia;}
+.terms a{color:#0088CC;font-weight:bold;}
+.buttonbg{
+    color:#fff;border:1px solid #0088CC;background:#0088CC;padding:4px;font-weight:bold;width:120px;
+}
+.buttonbg:over,.buttonbg:focus{
+    color:#fff;border:2px solid #cbcbcb;background:#0088CC;
+}
